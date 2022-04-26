@@ -1,0 +1,84 @@
+body {
+    background-color: gray;
+}
+  
+h1 {
+    color: lightgreen;
+    text-align: center;
+    font-family: undertale;
+    font-size: 50px;
+}
+  
+p {
+    font-family: undertale;
+    font-size: 20px;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'ff';
+    src: url('fonts/transfonter.org-20220421-110053/New.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('fonts/transfonter.org-20220421-110053/New.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'undertale';
+    src: url('fonts/transfonter.org-20220421-111523/DeterminationMonoWeb.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('fonts/transfonter.org-20220421-111523/DeterminationMonoWeb.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+/* Classes */
+
+.myRow { /* This is for the blocks of divs to order in blocks the projects */
+    width: 100%;
+    text-align: center;
+}
+
+.block { /* This is for the blocks of divs to order in blocks the projects */
+    width: 100px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.left { /* To move an image to the left */
+    float: left;
+}
+
+.right { /* To move an image to the right */
+    float: right;
+}
+
+.undertaleFont {
+    font-family: undertale;
+}
+
+.lightgreenText {
+    color: lightgreen;
+}
+
+/* Selection text color */
+
+::-moz-selection { /* Code for Firefox */
+    color: lightgreen;
+    background: lightgray;
+}
+  
+::selection {
+    color: lightgreen;
+    background: lightgray;
+}
+
+/* Specific ids */
+
+#selfportrait { /*!*/
+    padding-right: 100px;
+}
+
+#aboutMe { /*!*/
+    margin-left: 1300px;
+    margin-bottom: 0px;
+}

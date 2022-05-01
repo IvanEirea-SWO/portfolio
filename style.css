@@ -1,6 +1,6 @@
 body {
-    font-family: Roboto, sans-serif;
-    background-color: lightgray;
+    font-family: Roboto, sans-serif; color: lightgreen;
+    background-color: rgba(0, 0, 0, 0.929);
     /*background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');*/
 }
 
@@ -105,10 +105,32 @@ footer ul {
     list-style: none;
 }
 
+/* Specifics */
+
 #my-game {
     /* optional */
     width: 800px;
     height: 600px;
     margin: 0 auto;
     border: 1px solid black;
+}
+
+#my-game2 {
+    /* optional */
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+
+#header {
+    background-image:none;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }

@@ -12,13 +12,16 @@
 
 <body>
 
-    <header class="container">
+    <header class="container-fluid" id="header">
         <div class="row">
-            <h1 class="col-sm-6">Ivan Eirea</h1>
+            <div class="col-sm-6">
+                <h1 class="col-sm-6">Ivan Eirea</h1>
+                <h1 class="col-sm-8">「エイレア イバン」</h1>
+            </div>
             <nav class="col-sm-6 text-right">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="education.html">Education</a>
+                <a href="index.html">Home / ホームページ</a>
+                <a href="about.html">About Me / 私について</a>
+                <a href="education.html">Education / 教育</a>
             </nav>
         </div>
     </header>
@@ -34,58 +37,112 @@
     <!-- Programming Language Section -->
     <section class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <h5>HTML</h5>
-                <img class="portrait"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
-                    alt="HTML Logo">
-                <ul>
-                    <li>1 year experience</li>
-                </ul>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>HTML</h5>
+                    <img class="portrait"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                        alt="HTML Logo">
+                    <ul>
+                        <li>1 year experience</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>CSS</h5>
+                    <img class="portrait" src="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png"
+                        alt="CSS Logo">
+                    <ul>
+                        <li>1 year experience</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Java</h5>
+                    <img class="portrait" src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png"
+                        alt="Java Logo">
+                    <ul>
+                        <li>6 months experience</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Python</h5>
+                    <img class="portrait"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                        alt="Python Logo">
+                    <ul>
+                        <li>6 months experience</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h5>CSS</h5>
-                <img class="portrait" src="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png"
-                    alt="CSS Logo">
-                <ul>
-                    <li>1 year experience</li>
-                </ul>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>JavaScript</h5>
+                    <img class="portrait"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+                        alt="JavaScript Logo">
+                    <ul>
+                        <li>Beginning</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>SQL</h5>
+                    <img class="portrait"
+                        src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+                        alt="SQL Logo">
+                    <ul>
+                        <li>6 months</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Linux</h5>
+                    <img class="portrait"
+                        src="https://marcas-logos.net/wp-content/uploads/2020/03/Linux-Logo-2008.png"
+                        alt="Linux Logo">
+                    <ul>
+                        <li>6 months</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Bash</h5>
+                    <img class="portrait"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/1200px-Gnu-bash-logo.svg.png"
+                        alt="Bash Logo">
+                    <ul>
+                        <li>6 months</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h5>Java</h5>
-                <img class="portrait" src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png"
-                    alt="Java Logo">
-                <ul>
-                    <li>6 months experience</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>Python</h5>
-                <img class="portrait"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
-                    alt="Python Logo">
-                <ul>
-                    <li>6 months experience</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>JavaScript</h5>
-                <img class="portrait"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
-                    alt="JavaScript Logo">
-                <ul>
-                    <li>Beginning</li>
-                </ul>
-            </div>
+            
         </div>
     </section>
+
+    <!-- Game -->
+    <div id="my-game2"></div>
+    <script src="phaser.min.js"></script>
+    <script src="code2.js"></script>
+    
+    <br>
+    <br>
+    
+    <!-- JS Buttons -->
+    <div class="container">
+        <div class="row">
+            <div class="container" style="padding-left: 15%;">
+                <button type="button" onclick="document.getElementById('my-game2').style.display='none'">Hide game</button>
+                <button type="button" onclick="document.getElementById('my-game2').style.display='block'">Display
+                    game</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
 
     <section class="container">
         <h2>Professional Projects</h2>
         <div class="row">
             <ul>
                 <li>My own portfolio</li>
-                <li>...</li>
+                <li>I can put videogames on my webpage, as you may notice</li>
                 <li>...</li>
                 <li>...</li>
             </ul>

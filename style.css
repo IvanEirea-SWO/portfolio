@@ -1,84 +1,105 @@
 body {
-    background-color: gray;
+    font-family: Roboto, sans-serif;
+    background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
 }
-  
+
+header {
+    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
 h1 {
-    color: lightgreen;
-    text-align: center;
-    font-family: undertale;
-    font-size: 50px;
-}
-  
-p {
-    font-family: undertale;
-    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
 }
 
-/* Fonts */
-
-@font-face {
-    font-family: 'ff';
-    src: url('fonts/transfonter.org-20220421-110053/New.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-     url('fonts/transfonter.org-20220421-110053/New.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+nav {
+    display: flex;
+    justify-content: flex-end;
 }
 
-@font-face {
-    font-family: 'undertale';
-    src: url('fonts/transfonter.org-20220421-111523/DeterminationMonoWeb.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-     url('fonts/transfonter.org-20220421-111523/DeterminationMonoWeb.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+a {
+    padding: 0 20px;
+    margin: 0;
 }
 
-/* Classes */
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://content.codecademy.com/projects/personal_portfolio/background.jpeg');
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+}
 
-.myRow { /* This is for the blocks of divs to order in blocks the projects */
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+
+.jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+section .row img {
+    margin: 0 0 30px;
     width: 100%;
-    text-align: center;
 }
 
-.block { /* This is for the blocks of divs to order in blocks the projects */
-    width: 100px;
-    display: inline-block;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+.col-md-6 {
+    margin: 0 0 30px;
 }
 
-.left { /* To move an image to the left */
-    float: left;
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    background-color: #ffffff;
 }
 
-.right { /* To move an image to the right */
-    float: right;
+.btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
 }
 
-.undertaleFont {
-    font-family: undertale;
+.btn-secondary {
+    background-color: #2a70e0;
+    color: #ffffff;
+    margin: 0 0 30px;
 }
 
-.lightgreenText {
-    color: lightgreen;
+.portrait {
+    width: 350px;
+    height: 300px;
 }
 
-/* Selection text color */
-
-::-moz-selection { /* Code for Firefox */
-    color: lightgreen;
-    background: lightgray;
-}
-  
-::selection {
-    color: lightgreen;
-    background: lightgray;
+figure img {
+    width: 100%;
+    height: auto;
 }
 
-/* Specific ids */
-
-#selfportrait { /*!*/
-    padding-right: 100px;
+figure {
+    margin-bottom: 30px;
 }
 
-#aboutMe { /*!*/
-    margin-left: 1300px;
-    margin-bottom: 0px;
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
 }

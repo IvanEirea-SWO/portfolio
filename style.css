@@ -148,6 +148,11 @@ footer ul {
     text-shadow: 2px 2px 5px red;
 }
 
+.img-project {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
 /* Links */
 
 /* unvisited link */

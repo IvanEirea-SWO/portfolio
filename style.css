@@ -1,6 +1,7 @@
 body {
-    font-family: Roboto, sans-serif; color: lightgreen;
-    background-color: rgba(0, 0, 0, 0.929);
+    font-family: undertale;
+    color: lightgreen;
+    background-color: rgba(0, 0, 0, 0.792);
     /*background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');*/
 }
 
@@ -32,10 +33,11 @@ a {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('https://media.istockphoto.com/photos/cyberpunk-urban-samurai-picture-id1369890290?k=20&m=1369890290&s=612x612&w=0&h=VG5a0Y4IY_JP8DDDDa8J9ScuW9DgLJYLkuQitzvKUb4=');
+    background-image: url('img/skyline-tokyo1.png');
     background-size: cover;
-    color: #ffffff;
+    color: #fff;
     height: 400px;
+    text-shadow: 2px 2px 5px red;
 }
 
 .jumbotron h2 {
@@ -129,8 +131,58 @@ footer ul {
 }
 
 #header {
-    background-image:none;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: none;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
 }
+
+#my-name {
+    text-shadow: 2px 2px 5px red;
+}
+
+#my-name-jp {
+    text-shadow: 2px 2px 5px red;
+}
+
+/* Links */
+
+/* unvisited link */
+a:link {
+    color: hotpink;
+}
+
+/* visited link */
+a:visited {
+    color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: lightpink;
+    background: gray;
+}
+
+::selection {
+    color: lightpink;
+    background: gray;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'undertale';
+    src: url('fonts/undertale-font/DeterminationMonoWeb.woff') format('woff'),
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('fonts/undertale-font/DeterminationMonoWeb.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+

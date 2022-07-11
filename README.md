@@ -1,4 +1,4 @@
-# SQL Projects
+# Portfolio
 
 ![alt text](https://imgs.search.brave.com/j48P3p3E3SKPrp8QWHC4wRygNyDx-u_ytngsNROTLyk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnJl/ZGQuaXQvY2E3cmhp/dmczejk1MS5qcGc "Vaporwave image")
 

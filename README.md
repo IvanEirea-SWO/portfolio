@@ -4,18 +4,25 @@
 
 Hello! And welcome to this repository, where you can find the code to do a portfolio of your own. To be correct, this is the code of *my* portfolio but you can use it whatever you want.
 
-To build the *current version* of this portfolio we have used:
+To build the *current version* of this portfolio I have used:
 
-Programming languages:
+Main languages:
 * **HTML5**
 * **CSS3**
 * **JavaScript**
+
+Extra languages:
 * **PLSQL**
+* **GLSL**
 
 Frameworks:
 * **Bootstrap**
 * **Phaser**
 
-I'm planning on making a big revamp of this project and maybe to start totally from scratch again so. Another feature that I will definitely add in the future is the option to switch between different languages, those including: Spanish, English, Japanese, Chinese and Hindi for sure, but maybe some more.
+Planned for the future:
+* **Angular**
+
+I'm planning on making a big revamp of this project and maybe to start totally from scratch again so. 
+Another feature that I will definitely add in the future is the option to switch between different languages, those including: Spanish, English, Japanese, Chinese and Hindi for sure, but maybe some more.
 
 See you! 🧙‍♂️

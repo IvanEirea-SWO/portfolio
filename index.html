@@ -1,76 +1,53 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
-<head>
+    <head>
+        <title>IVAN EIREA</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <style>
 
-  <title>Tamahagane</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style.css">
-  <!--<link href="style.css" type="text/css" rel="stylesheet">-->
-  
-  <script type="text/javascript" src="//portfolio/script.js"></script> <!-- My JavaScript -->
-  <script type="text/javascript" src="indexGame.js"></script>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            #particles-js{
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/sakura-city-gif.gif");
+            }
+            h1{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 140px;
+                font-family: undertale;
+                color: rgb(184, 132, 168);
+            }
 
-</head>
+        </style>
 
-<body>
+    </head>
 
-  <header class="container-fluid" id="header">
-    <div class="row">
-      <div class="col-sm-6">
-        <h1 class="col-sm-6" id="my-name">Ivan Eirea</h1>
-        <h1 class="col-sm-8" id="my-name-jp">「エイレア イバン」</h1>
-      </div>
-      <nav class="col-sm-6 text-right">
-        <a href="about.html">About Me / 私について</a>
-        <a href="education.html">Education / 教育</a>
-        <a href="experience.html">Experience / 経験</a>
-      </nav>
-    </div>
-  </header>
+    <body>
 
-  <section class="jumbotron" id="js1">
-    <div class="container">
-      <div class="row">
-        <h2>Developer, Designer</h2>
-        <h2>デザイナー、デザイナー</h2>
-      </div>
-      <div class="row">
-        <h3>HTML, CSS, Java, Python, JavaScript</h3>
-      </div>
-    </div>
-  </section>
+        <div id="particles-js">
+            <a href="main.html"><h1>IVAN EIREA</h1></a>
+        </div>
 
-  <!-- Game -->
-  <div id="my-game"></div>
-  <script src="phaser.min.js"></script>
-  <script src="code.js"></script>
+        <!-- particles js files -->
 
-  <br>
-  <br>
+        <!-- first particles.js file and then app.js -->
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
 
-  <!-- JS Buttons -->
-  <div class="container">
-    <div class="row">
-      <div class="container" style="padding-left: 15%;">
-        <button type="button" onclick="document.getElementById('my-game').style.display='none'">Hide game</button>
-        <button type="button" onclick="document.getElementById('my-game').style.display='block'">Display game</button>
-      </div>
-    </div>
-  </div>
-
-  <footer class="container">
-    <div class="row">
-      <p class="col-sm-4">&copy; 2022 Ivan Eirea</p>
-      <div class="col-sm-2"><a href="https://github.com/ivan-er-dev" target="_blank">GitHub</a></div>
-      <div class="col-sm-2"><a href="https://www.deviantart.com/" target="_blank">DeviantArt</a></div>
-      <div class="col-sm-2"><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></div>
-    </div>
-  </footer>
-
-</body>
+    </body>
 
 </html>

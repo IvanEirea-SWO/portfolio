@@ -2,12 +2,18 @@
 <html lang="en">
 
 <head>
+
     <title>IVAN EIREA</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--<link href="style.css" type="text/css" rel="stylesheet">-->
+
+    <script type="text/javascript" src="//portfolio/script.js"></script> <!-- My JavaScript -->
+    <script type="text/javascript" src="indexGame.js"></script>
+
 </head>
 
 <body>
@@ -15,33 +21,46 @@
     <header class="container-fluid" id="header">
         <div class="row">
             <div class="col-sm-6">
-                
+
             </div>
             <nav class="col-sm-6 text-right">
-                <a href="main.html">Home / ホームページ</a>
+                <a href="about.html">About Me / 私について</a>
                 <a href="education.html">Education / 教育</a>
                 <a href="experience.html">Experience / 経験</a>
             </nav>
         </div>
     </header>
 
-    <section class="jumbotron">
+    <section class="jumbotron" id="js1">
         <div class="container">
             <div class="row">
-                <h2>About Me</h2>
+                <h1 id="my-name">Ivan Eirea</h1>
+            </div>
+            <div class="row">
+                <h2>Developer, Designer</h2>
+            </div>
+            <div class="row">
+                <h3>HTML, CSS, Java, Python, JavaScript</h3>
             </div>
         </div>
     </section>
 
+    <!-- Game -->
+    <div id="my-game"></div>
+    <script src="phaser.min.js"></script>
+    <script src="code.js"></script>
+
+    <br>
+    <br>
+
+    <!-- JS Buttons -->
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-6">
-                <img src="img/selfportrait.png" alt="Selfportrait?" width="180" height="180">
-                <p>Hi, I'm Ivan and I am a Developer as well as I am a Designer. I studied Psychology and now I'm
-                    passionate about technology and design, as I'd always have. When I'm not with my partner or my
-                    friends I do love to read long and complicated books and walk through nature (best if both at the
-                    same time), or spend the much valued time with my animal companions. Videogames and cybersecurity
-                    have my heart.</p>
+        <div class="row">
+            <div class="container" style="padding-left: 15%;">
+                <button type="button" onclick="document.getElementById('my-game').style.display='none'">Hide
+                    game</button>
+                <button type="button" onclick="document.getElementById('my-game').style.display='block'">Display
+                    game</button>
             </div>
         </div>
     </div>

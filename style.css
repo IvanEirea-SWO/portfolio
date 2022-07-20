@@ -33,11 +33,18 @@ a {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('img/skyline-tokyo1.png');
+    background-image: url('img/koi-pond-gif.gif');
     background-size: cover;
     color: #fff;
     height: 400px;
     text-shadow: 2px 2px 5px red;
+}
+
+.jumbotron h1 {
+    font-size: 90px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
 }
 
 .jumbotron h2 {
@@ -190,4 +197,3 @@ a:hover {
         url('fonts/undertale-font/DeterminationMonoWeb.ttf') format('truetype');
     /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
-
